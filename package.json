@@ -1,0 +1,36 @@
+{
+  "name": "sample_react_library",
+  "version": "1.0.0",
+  "description": "This is a sample boilerplate for React Component Library",
+  "main": "dist/build.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NGimhana/sample_react_component_library_boilerplate"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "Nadeeshan Gimhana",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.4",
+    "axios": "^0.21.1",
+    "prop-types": "latest",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
